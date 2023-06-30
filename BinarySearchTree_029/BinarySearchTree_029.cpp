@@ -145,6 +145,11 @@ int main()
 			obj.insert(word);
 			break;
 		}
+		case '2':
+		{
+			obj.preorder(obj.ROOT);
+			break;
+		}
 		}
 	}
 }
